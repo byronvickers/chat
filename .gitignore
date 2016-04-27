@@ -4,11 +4,16 @@ node_modules/
 .sass-cache
 
 ## bower components
+
+bower_components/*
+
 !bower_components/angular/
 bower_components/angular/*
 
 !bower_components/angular-ui-router/
 bower_components/angular-ui-router/*
+!bower_components/angular-ui-router/release/
+bower_components/angular-ui-router/release/*
 
 !bower_components/firebase/
 bower_components/firebase/*
@@ -18,15 +23,18 @@ bower_components/angular-md5/*
 
 !bower_components/angularfire/
 bower_components/angularfire/*
+!bower_components/angularfire/dist/
+bower_components/angularfire/dist/*
 
 !bower_components/jquery/
 bower_components/jquery/*
-
-!bower_components/angular-mocks/
-bower_components/angular-mocks/*
+!bower_components/jquery/dist/
+bower_components/jquery/dist/*
 
 !bower_components/bootstrap/
 bower_components/bootstrap/*
+!bower_components/bootstrap/dist/
+bower_components/bootstrap/dist/*
 
 !bower_components/jquery/dist/jquery.js
 !bower_components/angular/angular.js
